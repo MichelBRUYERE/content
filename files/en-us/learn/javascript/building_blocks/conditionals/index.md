@@ -88,7 +88,7 @@ To understand this syntax better, let's consider a real example. Imagine a child
 let shoppingDone = false;
 let childsAllowance;
 
-if (shoppingDone === true) {
+if (!shoppingDone) {
   childsAllowance = 10;
 } else {
   childsAllowance = 5;
